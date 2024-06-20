@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Expenses chart component</title>
+</head>
+
+<body>
+
+  <main>
+    <div class="card">
+      <header>
+        <div class="header-info">
+          <h2 class="header-title">My balance</h2>
+          <span class="header-amount">$921.48</span>
+        </div>
+        <div class="header-icon">
+          <img src="./images/logo.svg" alt="icon">
+        </div>
+      </header>
+
+      <section class="body-card">
+
+        <article class="bars-section">
+          <div class="title"> Spending - Last 7 days</div>
+
+          <div class="bars-container">
+            <div class="bar"><div class="text">mon</div><span class="bar-form red-bar" id="mon"></span></div>
+            <div class="bar"><div class="text">tue</div><span class="bar-form red-bar" id="tue"></span></div>
+            <div class="bar"><div class="text">wed</div><span class="bar-form red-bar" id="wed"></span></div>
+            <div class="bar"><div class="text">thu</div><span class="bar-form red-bar" id="thu"></span></div>
+            <div class="bar"><div class="text">fri</div><span class="bar-form red-bar" id="fri"></span></div>
+            <div class="bar"><div class="text">sat</div><span class="bar-form red-bar" id="sat"></span></div>
+            <div class="bar"><div class="text">sun</div><span class="bar-form red-bar" id="sun"></span></div>
+          </div>
+        </article>
+
+        <article class="footer-card">
+          <span class="total-month">
+            <p class="text">Total this month</p>
+            <p class="amount">$478.33</p>
+          </span>
+
+          <span class="last-month">
+            <p class="percent">+2.4%</p>
+            <p class="text">from last month</p>
+          </span>
+        </article>
+
+      </section>
+    </div>
+  </main>
+
+
+
+
+
+
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
