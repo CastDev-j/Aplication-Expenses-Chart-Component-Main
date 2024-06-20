@@ -403,7 +403,7 @@ main {
                                 width: 33px !important;
                                 padding: 3px !important;
                                 margin-left: -3px !important;
-                                margin-top: -27px;
+                                margin-top: -27px !important;
                                 min-height: 16px;
                                 font-size: 10px !important;
                             }
