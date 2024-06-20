@@ -316,7 +316,7 @@ main {
 }
 
 /*media for mobiles*/
-@media (max-width: 500px) {
+@media (max-width: 570px) {
     .card {
         width: 343px;
         height: 534px;
